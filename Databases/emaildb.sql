@@ -1,0 +1,6 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS "Counts" (
+	"org"	TEXT,
+	"count"	INTEGER
+);
+COMMIT;
